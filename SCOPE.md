@@ -72,7 +72,7 @@ SkeetYeet is a party, not a purge. The brand is lively, colourful and festive, i
 | macOS | macOS 13+ (Apple silicon + Intel) | Mac App Store + notarized DMG on GitHub Releases | Included above |
 | Android | Android 8.0+ (API 26) | Google Play, F-Droid, APK on GitHub Releases | Google Play, $25 one-time |
 | Windows | Windows 10 21H2+ / 11 (x64, ARM64) | Microsoft Store (MSIX) + signed installer on GitHub Releases | Code-signing certificate or Azure Trusted Signing (roughly $10/month) |
-| Website | Any modern browser | Static site (GitHub Pages, Cloudflare Pages or Vercel) | skeetyeet.app (registered) |
+| Website | Any modern browser | Static site on Vercel | skeetyeet.app (registered) |
 
 All store listings are published under **Carmel Avenue Media**. A Linux desktop build and a web build come almost free with Flutter and can be listed as stretch goals. Costs are approximate and should be checked before purchase.
 
@@ -196,7 +196,7 @@ The bundled `index.html` viewer lets users browse and search their archive offli
 
 ## Product website
 
-A single, fast, static site (Astro or plain HTML) at **skeetyeet.app**, source in the same repo under `/website`.
+A single, fast, static site (Astro or plain HTML) at **skeetyeet.app**, hosted on Vercel, source in the same repo under `/website`.
 
 - **Hero:** name, one-line pitch ("Yeet your old skeets. Keep the memories. Go touch grass."), sunny illustrated hero in the brand palette, download buttons detected per platform.
 - **What it does:** cards for bulk delete, bulk unfollow, smart filters, archive before delete, full export with DMs, multiple accounts and all-accounts runs.
@@ -281,5 +281,6 @@ Agreed on 2026-11-11.
 | Logo, app icon, illustrations | Designed by Claude in Phase 0 |
 | GitHub home | github.com/chriscaple/skeetyeet for now; move to a Carmel Avenue Media organization later |
 | Minimum OS versions | As listed under Platforms and distribution |
+| Website hosting | Vercel |
 
 No open questions remain.

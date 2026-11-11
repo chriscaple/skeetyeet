@@ -1,0 +1,15 @@
+{
+  "client_id": "https://skeetyeet.app/oauth/client-metadata.json",
+  "client_name": "SkeetYeet",
+  "client_uri": "https://skeetyeet.app",
+  "logo_uri": "https://skeetyeet.app/assets/mark-512.png",
+  "tos_uri": "https://skeetyeet.app/terms.html",
+  "policy_uri": "https://skeetyeet.app/privacy.html",
+  "application_type": "native",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "redirect_uris": ["app.skeetyeet:/oauth/callback"],
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <title>A tuft of grass under a warm sun, with a hibiscus flower</title>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD23F"/>
+      <stop offset="1" stop-color="#FF9F1C"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="300" cy="300" r="280" fill="#FFF4E0"/>
+  <circle cx="300" cy="250" r="150" fill="url(#glow)"/>
+
+  <!-- ground -->
+  <path d="M40 420 C 160 390 440 390 560 420 A 280 280 0 0 1 40 420 Z" fill="#FFE3B3"/>
+
+  <!-- grass -->
+  <g fill="#2EC27E">
+    <path d="M150 440 L170 330 L190 440 L215 290 L238 440 L262 260 L285 440 L310 300 L332 440 L356 270 L378 440 L402 320 L420 440 L440 350 L455 440 Z"/>
+  </g>
+  <g fill="#8EE0AE">
+    <path d="M190 440 L205 370 L222 440 L246 340 L266 440 L292 350 L310 440 Z"/>
+    <path d="M340 440 L362 360 L380 440 L404 380 L418 440 Z"/>
+  </g>
+
+  <!-- hibiscus -->
+  <g transform="translate(430 300)">
+    <path d="M0 0 Q -4 70 10 140" stroke="#2EC27E" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <g fill="#FF3E7F">
+      <ellipse cx="0" cy="-30" rx="22" ry="32"/>
+      <ellipse cx="0" cy="-30" rx="22" ry="32" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-30" rx="22" ry="32" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-30" rx="22" ry="32" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-30" rx="22" ry="32" transform="rotate(288)"/>
+    </g>
+    <circle r="12" fill="#FFD23F"/>
+  </g>
+
+  <!-- a little confetti of joy -->
+  <rect x="120" y="190" width="18" height="18" rx="4" fill="#00B4C6" transform="rotate(20 129 199)"/>
+  <circle cx="470" cy="170" r="9" fill="#FF3E7F"/>
+  <rect x="150" y="120" width="22" height="10" rx="5" fill="#2EC27E" transform="rotate(-30 161 125)"/>
+</svg>

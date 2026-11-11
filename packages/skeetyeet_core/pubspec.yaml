@@ -1,0 +1,14 @@
+name: skeetyeet_core
+description: >-
+  Pure-Dart core for SkeetYeet: AT Protocol record handling, the selection
+  filter engine, deletion jobs and the archive writer.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/chriscaple/skeetyeet
+
+environment:
+  sdk: ^3.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.0

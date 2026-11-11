@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF3E7F"/>
+      <stop offset="0.55" stop-color="#FF9F1C"/>
+      <stop offset="0.8" stop-color="#FFD23F"/>
+    </linearGradient>
+    <g id="bubble">
+      <rect x="-190" y="-130" width="380" height="260" rx="105"/>
+      <path d="M-128 88 L-176 196 L-30 122 Z"/>
+    </g>
+  </defs>
+
+  <!-- sunset sky -->
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+
+  <!-- setting sun -->
+  <circle cx="512" cy="748" r="236" fill="#FFF4E0" opacity="0.9"/>
+
+  <!-- waves -->
+  <path d="M0 760 C 128 716 256 804 384 760 S 640 716 768 760 S 960 804 1024 760 V1024 H0 Z" fill="#00B4C6"/>
+  <path d="M0 872 C 128 836 256 908 384 872 S 640 836 768 872 S 960 908 1024 872 V1024 H0 Z" fill="#1B2A49"/>
+  <path d="M120 812 h120 M560 820 h150 M820 806 h80" stroke="#FFF4E0" stroke-width="16" stroke-linecap="round" opacity="0.6"/>
+
+  </svg>

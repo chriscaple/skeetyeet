@@ -1,0 +1,33 @@
+name: Bug report
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make SkeetYeet better! Please **don't** include passwords, app passwords, tokens or private post content.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [iOS / iPadOS, macOS, Android, Windows, Website]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SkeetYeet version
+      placeholder: e.g. 0.1.0 (Settings → About)
+  - type: textarea
+    id: logs
+    attributes:
+      label: Job log or error message
+      description: Optional. Remove anything personal before pasting.
+      render: text

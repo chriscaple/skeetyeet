@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <g transform="translate(512 512) scale(0.62) translate(-560 -380)"><defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF3E7F"/>
+      <stop offset="0.55" stop-color="#FF9F1C"/>
+      <stop offset="0.8" stop-color="#FFD23F"/>
+    </linearGradient>
+    <g id="bubble">
+      <rect x="-190" y="-130" width="380" height="260" rx="105"/>
+      <path d="M-128 88 L-176 196 L-30 122 Z"/>
+    </g>
+  </defs>
+  <g transform="translate(560 380) rotate(-16)">
+    <g transform="translate(14 22)" fill="#1B2A49" opacity="0.18"><use href="#bubble"/></g>
+    <g fill="#FFFFFF"><use href="#bubble"/></g>
+    <rect x="-118" y="-58" width="236" height="38" rx="19" fill="#FF3E7F"/>
+    <rect x="-118" y="12" width="150" height="38" rx="19" fill="#00B4C6"/>
+    <!-- motion streaks -->
+    <g stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" opacity="0.8">
+      <path d="M-340 -64 H-246"/>
+      <path d="M-380 4 H-240"/>
+      <path d="M-330 72 H-250"/>
+    </g>
+  </g>
+
+  <!-- confetti -->
+  <g>
+    <rect x="806" y="168" width="34" height="34" rx="6" fill="#FFD23F" transform="rotate(24 823 185)"/>
+    <circle cx="880" cy="300" r="18" fill="#FFFFFF"/>
+    <rect x="760" y="96" width="44" height="20" rx="10" fill="#2EC27E" transform="rotate(-30 782 106)"/>
+    <circle cx="700" cy="150" r="13" fill="#00B4C6"/>
+    <rect x="900" y="420" width="40" height="18" rx="9" fill="#FFF4E0" transform="rotate(40 920 429)"/>
+  </g>
+</g>
+</svg>

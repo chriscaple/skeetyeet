@@ -1,0 +1,28 @@
+# OS / editors
+.DS_Store
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+coverage/
+*.g.dart.tmp
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec_overrides.yaml
+
+# Local dev environment
+tools/dev-env/atproto/
+.env
+*.local
+
+# Secrets — never commit
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+key.properties

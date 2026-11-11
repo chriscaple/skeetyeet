@@ -1,0 +1,45 @@
+name: skeetyeet
+description: "Bulk-delete and archive your Bluesky posts."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  skeetyeet_core:
+    path: ../packages/skeetyeet_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/illustrations/
+  fonts:
+    - family: LilitaOne
+      fonts:
+        - asset: assets/fonts/LilitaOne-Regular.ttf
+
+# Regenerate with: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "../brand/icon/icon-1024.png"
+  android: true
+  min_sdk_android: 26
+  adaptive_icon_background: "../brand/icon/android-background.png"
+  adaptive_icon_foreground: "../brand/icon/android-foreground.png"
+  ios: true
+  remove_alpha_ios: true
+  macos:
+    generate: true
+    image_path: "../brand/icon/icon-macos.png"
+  windows:
+    generate: true
+    image_path: "../brand/logo/mark.png"
+    icon_size: 256

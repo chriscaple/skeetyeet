@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkeetYeet — Clean up your Bluesky. Keep a copy. Go touch grass.</title>
+  <meta name="description" content="SkeetYeet is a free, open-source app for iOS, macOS, Android and Windows that bulk-deletes Bluesky posts, reposts, replies and likes, archives them first, and runs entirely on your device.">
+  <meta property="og:title" content="SkeetYeet">
+  <meta property="og:description" content="Yeet your old skeets. Keep the memories. Go touch grass.">
+  <meta property="og:image" content="https://skeetyeet.app/assets/og-image.png">
+  <meta property="og:url" content="https://skeetyeet.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FF3E7F">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a href="./" class="brand" aria-label="SkeetYeet home"><img src="assets/logo.svg" alt="SkeetYeet" width="246" height="40"></a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://github.com/chriscaple/skeetyeet">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Yeet your old skeets.<br><span>Keep the memories.</span><br>Go touch grass.</h1>
+        <p class="lede">SkeetYeet bulk-deletes Bluesky posts, reposts, replies and likes, using filters you choose. It saves a copy first, and it all happens on your device.</p>
+        <div class="cta">
+          <a class="button" href="#download">Get SkeetYeet</a>
+          <a class="button ghost" href="https://github.com/chriscaple/skeetyeet">View the code</a>
+        </div>
+        <p class="note">Free and open source. Coming soon to iPhone, iPad, Mac, Android and Windows.</p>
+      </div>
+      <img class="hero-art" src="assets/hero-sunset.svg" alt="A phone lies face-down on a beach at sunset while old posts drift away into the sky." width="1600" height="900">
+    </section>
+
+    <section id="features" class="features">
+      <h2>Let go, your way</h2>
+      <div class="grid">
+        <article class="card c-hibiscus">
+          <h3>Bulk delete</h3>
+          <p>Posts, replies, quote posts, reposts and likes: thousands at a time, with pause and resume.</p>
+        </article>
+        <article class="card c-mango">
+          <h3>Smart filters</h3>
+          <p>By date range, account, keyword, hashtag, images, video, links, language or likes. Mix and match.</p>
+        </article>
+        <article class="card c-lagoon">
+          <h3>Archive first</h3>
+          <p>Save everything you delete, images included, to a folder you can browse offline in any browser.</p>
+        </article>
+        <article class="card c-palm">
+          <h3>Full account export</h3>
+          <p>Download your whole account (posts, reposts, likes, follows and DMs) whenever you like.</p>
+        </article>
+        <article class="card c-sunshine">
+          <h3>Bulk unfollow</h3>
+          <p>Unfollow accounts that went quiet, don't follow back, or that you followed years ago.</p>
+        </article>
+        <article class="card c-deep">
+          <h3>All your accounts</h3>
+          <p>Connect as many Bluesky accounts as you have, and run a cleanup on one or all of them.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how">
+      <h2>How it works</h2>
+      <ol>
+        <li><strong>Connect</strong> your Bluesky account.</li>
+        <li><strong>Filter</strong> to pick what goes.</li>
+        <li><strong>Preview</strong> every item, and spare any you like.</li>
+        <li><strong>Archive</strong> a copy to your device.</li>
+        <li><strong>Let go.</strong> Then go outside.</li>
+      </ol>
+    </section>
+
+    <section class="privacy">
+      <img src="assets/touch-grass.svg" alt="" width="180" height="180">
+      <div>
+        <h2>Your stuff stays yours</h2>
+        <p>SkeetYeet has no server, no accounts, no analytics and no tracking. It talks only to your own Bluesky server, and your archive lives on your device. Every line of code is on <a href="https://github.com/chriscaple/skeetyeet">GitHub</a>.</p>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <h2>Download</h2>
+      <p>The first builds are on their way. Watch the <a href="https://github.com/chriscaple/skeetyeet">GitHub repo</a> to hear when they land.</p>
+      <ul class="stores">
+        <li><span class="store">App Store</span><span class="soon">iPhone, iPad and Mac · soon</span></li>
+        <li><span class="store">Google Play</span><span class="soon">Android · soon</span></li>
+        <li><span class="store">F-Droid</span><span class="soon">Android · soon</span></li>
+        <li><span class="store">Microsoft Store</span><span class="soon">Windows · soon</span></li>
+        <li><span class="store">GitHub Releases</span><span class="soon">Direct downloads · soon</span></li>
+      </ul>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>Questions</h2>
+      <details>
+        <summary>Why do big cleanups take a while?</summary>
+        <p>Bluesky limits how many changes an account can make per hour (roughly 5,000 deletions an hour on bsky.social). SkeetYeet works within those limits and picks up where it left off, so a very large account may take a day or two. Perfect time to go to the beach.</p>
+      </details>
+      <details>
+        <summary>Is deleted really gone?</summary>
+        <p>SkeetYeet deletes posts from your account and Bluesky stops showing them. Copies others already made (screenshots, quotes, third-party archives, services that recorded the public firehose) are outside anyone's control.</p>
+      </details>
+      <details>
+        <summary>How do I sign in?</summary>
+        <p>With Bluesky's own sign-in page (OAuth), so SkeetYeet never sees your password. If your server doesn't support that yet, you can use an app password. Never your main password.</p>
+      </details>
+      <details>
+        <summary>Can I delete my DMs?</summary>
+        <p>You can export them. Bluesky only lets you delete messages from your own side of a conversation.</p>
+      </details>
+      <details>
+        <summary>Is SkeetYeet made by Bluesky?</summary>
+        <p>No. SkeetYeet is an independent, open-source project by Carmel Avenue Media and is not affiliated with Bluesky Social PBC.</p>
+      </details>
+      <details>
+        <summary>Is it really free?</summary>
+        <p>Yes, every feature. If it brings you joy, you can leave a tip through <a href="https://github.com/sponsors/chriscaple">GitHub Sponsors</a> or in the app.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 <a href="https://www.carmelavenuemedia.ca">Carmel Avenue Media</a> · <a href="https://github.com/chriscaple/skeetyeet">GitHub</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="https://github.com/sponsors/chriscaple">Tip jar</a></p>
+    <p class="small">SkeetYeet is not affiliated with or endorsed by Bluesky Social PBC. Open source under the MIT licence.</p>
+  </footer>
+</body>
+</html>
